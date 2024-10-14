@@ -1,0 +1,12 @@
+/* Carousel.css */
+
+.carousel-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

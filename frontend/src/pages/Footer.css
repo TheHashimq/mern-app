@@ -1,0 +1,41 @@
+/* Footer.css */
+
+/* Footer should be at the bottom of the page */
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #343a40; /* Dark background color */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Spreads the content evenly */
+  align-items: center;
+}
+
+.footer a {
+  color: #007bff; /* Links in the footer */
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer a {
+    display: block;
+    margin: 5px 0;
+  }
+}

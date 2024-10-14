@@ -1,0 +1,88 @@
+/* Centering the login container */
+.login-container,
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto; /* Centers the container horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  background-color: #fff; /* Background color for contrast */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+}
+
+/* Form Styling */
+form {
+  width: 100%; /* Make form take full width of container */
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Added gap for spacing between form elements */
+}
+
+/* Label Styling */
+label {
+  font-size: 14px;
+  color: #333; /* Slightly darker text for better readability */
+  margin-bottom: 5px;
+  text-align: left; /* Align text to the left of the container */
+}
+
+/* Input Styling */
+input {
+  width: 100%; /* Make input fields take full width of form */
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+input:focus {
+  border-color: #28a745; /* Green border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button Styling */
+button {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  width: 100%; /* Make button take full width of form */
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Error Message Styling */
+.error {
+  color: red;
+  font-size: 14px; /* Match font size with label */
+  margin-bottom: 15px;
+  text-align: center; /* Center the error message text */
+}
+
+/* Add spacing and alignment for Google login button */
+.google-login {
+  margin-top: 15px; /* Space above the button */
+  padding: 12px;
+  background-color: #db4437; /* Google red color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Make Google login button take full width of form */
+  text-align: center; /* Center text inside button */
+}
+
+.google-login:hover {
+  background-color: #c1351d; /* Darker red on hover */
+}

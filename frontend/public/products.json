@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "description": "Fresh organic apples.",
+    "price": 1.99,
+    "image": "https://images.heb.com/is/image/HEBGrocery/000375146-1?$article-235-square$"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "description": "Ripe bananas full of potassium.",
+    "price": 0.99,
+    "image": "https://wallpapercave.com/wp/wp6932570.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carrot",
+    "description": "Crunchy and fresh carrots.",
+    "price": 2.49,
+    "image": "https://wallpaperaccess.com/full/1598023.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Broccoli",
+    "description": "Healthy green broccoli.",
+    "price": 3.99,
+    "image": "https://coolwallpapers.me/picsup/5614795-broccoli-wallpapers.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Orange",
+    "description": "Citrusy and sweet oranges.",
+    "price": 1.5,
+    "image": "https://c2.peakpx.com/wallpaper/105/991/648/2k-orange-st-clement-tangerine-wallpaper.jpg"
+  }
+]

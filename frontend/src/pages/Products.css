@@ -1,0 +1,17 @@
+/* Products.css */
+
+/* Container that holds all the product cards */
+.products-container {
+  display: flex;
+  justify-content: space-around; /* Spaces the cards evenly */
+  flex-wrap: wrap; /* Allows the cards to wrap to the next row if there's not enough space */
+  padding: 20px; /* Adds padding to the entire container */
+  background-color: #f8f9fa; /* Light background color for contrast */
+}
+
+/* Media query to handle responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .products-container {
+    justify-content: center; /* Center the cards on small screens */
+  }
+}
